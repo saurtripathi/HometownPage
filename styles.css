@@ -1,0 +1,206 @@
+
+body{
+        margin:0px;
+}
+
+
+#hero{
+        background-image: url("images/Bangalore.jpg");
+}
+
+.add-hero{
+        /* width: 720px;
+        height: 350px; */
+
+        width: 1320px;
+        height: 350px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-size: cover;
+}
+
+#hero:hover{
+        background-image: url("images/bengaluru.gif");
+        background-size: cover;
+}
+
+#activities{
+        /* width: 720px;
+        height: 350px; */
+
+        width: 1320px;
+        height: 350px;
+        background-color: #DACEB8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+}
+
+
+
+.hero-heading {
+        background-color: #2B2E33;
+        color: #DACEB8;
+        width: 150px;
+        height: 24px;
+        font-family: 'Arial';
+        text-align: center;
+        padding:  5px 0px 0px 0px;
+        border-radius: 5px;
+        margin-bottom: 0px;
+}
+
+.hero-heading:hover {
+        width: 500px;
+        height: 70px; 
+        margin:  10px 20px;
+        font-size: 50px;
+        text-shadow:5px -5px 10px #E42D2D;
+}
+
+
+.hero-sub-heading { 
+        width: 600px;
+        height: 40px;
+        background-color: #5A3522;
+        color: #DACEB8;
+        font-family: 'Arial';
+        font-style: normal;
+        padding: 20px 0px 0px 0px;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: lighter;
+        border-radius: 10px;
+}
+
+.activities-heading-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.activities-image-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 720px;
+}
+
+.city-action{
+        width: 200px;
+        height: 225px;
+        margin: auto;
+} 
+
+.cusinine-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+}
+
+.cusinine-img:hover{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+}
+
+.p-main-heading{
+        font-family: 'Arial';
+        font-size: 12px;
+        font-weight: bold;
+}
+
+.p-sub-heading{
+        font-family: 'Arial';
+        font-size: 12px;
+        font-weight: 100;
+        color: #333841;
+}
+
+#guide{
+        /* width: 720px;
+        height: 350px; */
+
+        width: 1320px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #B5A8A2;
+}
+
+.guide-img{
+        height: 220px;
+        width: 180px;
+        border: 1px dotted beige;
+        margin: 50px 10px;
+        border-radius: 5px;
+}
+
+.guide-img:hover{
+        height: 250px;
+        width: 200px;
+        margin: 50px 10px;
+        border-radius: 5px;
+}
+
+.div-guide-info{
+        display: block;
+        height: 250px;
+        width: 180px;
+        text-align: center;
+        margin: 50px 10px;
+}
+
+.p-guide-title{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 50px ;;
+        color: #333841;
+}
+
+.p-guide-info{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #64686F;
+}
+
+#p-guide-name{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #333841;
+}
+
+#business-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 250px;
+        background-color: #f1ede6;
+        margin: 50px 0px ;
+        border-bottom: 5px solid #2b2e33;
+        border-radius: 8px;
+}
