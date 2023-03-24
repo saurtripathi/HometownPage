@@ -5,6 +5,8 @@ body{
 
 
 #hero{
+        max-width: 100%;
+        max-height: 100%;
         background-image: url("images/Bangalore.jpg");
 }
 
@@ -29,9 +31,8 @@ body{
 }
 
 #activities{
-        /* width: 720px;
-        height: 350px; */
-
+        max-width: 100%;
+        max-height: 100%;
         width: 1320px;
         height: 350px;
         background-color: #DACEB8;
@@ -126,9 +127,8 @@ body{
 }
 
 #guide{
-        /* width: 720px;
-        height: 350px; */
-
+        max-width: 100%;
+        max-height: 100%;
         width: 1320px;
         height: 350px;
         display: flex;
